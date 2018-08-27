@@ -1,0 +1,16 @@
+body,ul,ol,h1,h2,h3,h4,h5,span,input{
+	padding: 0;
+	margin: 0;
+}
+ul,ol{
+	list-style-type: none;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+a{
+	text-decoration: none;
+	
+}

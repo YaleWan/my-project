@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>主页</title>
+		<link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/1.js" type="text/javascript" charset="utf-8"></script>
+	
+		
+	</head>
+	<body>
+		<header>
+			<div class="nav" id="top">
+				<div class="logo"></div>			
+				<div class="navbar">
+					<ul class="navbar-i">
+						<li class="active">首页</li>
+						<li><a href="destination.html" target="_blank">目的地</a></li>
+						<li><a href="#">旅游攻略</a></li>
+						<li>
+							<a href="shop.html" target="_blank">旅行商城</a><i></i>
+							<ul>
+								<li>自由游</li>
+								<li>跟团游</li>
+								<li>当地游</li>
+								<li>国内机票</li>
+								<li>签证</li>
+								<li>保险</li>
+							</ul>
+						</li>
+						<li><a href="#">酒店</a></li>
+						<li>
+							<a href="store.html" target="_blank">社区</a>
+							<div class="community"></div>
+						</li>
+						<li><a href="#">APP</a></li>
+					</ul>
+				</div>
+				<div class="login">
+					<i class="weibo"></i>
+					<i class="qq"></i>
+					<i class="weixin"></i>
+					<a href="login.html" target="_blank">登录</a>
+					<span>|</span>
+					<a>注册</a>					
+				</div>
+			</div>
+		</header>
+		<div id="banner" class="banner clearfix">
+			<ul class="banner-imgs">
+				<li class="ig ig1">
+					<time>19/Aug.2018</time>
+					<p>我和秘鲁有个小鹿乱撞的故事，安第斯山印家徒步和马丘比丘</p>
+					<img src="img/wKgBEFt0_2-AZlVGAAXzgOYNwWo21.jpeg"/>
+					
+				</li>
+				<li class="ig ig1">
+					<time>18/Aug.2018</time>
+					<p>挤个周末去韩国，不带攻略的好奇心之旅</p>
+					<img src="img/wKgBEFt0BjCAJ-4eAAX0_LbqgTg48.jpeg"/>
+				</li>
+				<li class="ig ig1">
+					<time>17/Aug.2018</time>
+					<p>杭州漫游 | 一份淋漓尽致的夏日洗心套餐</p>
+					<img src="img/wKgBEFt1Bz2AWUMGAAiRo7GE2Zs40.jpeg"/>
+				</li>
+				<li class="ig ig1">
+					<time>16/Aug.2018</time>
+					<p>北欧极地：遇见世界尽头的光影</p>
+					<img src="img/wKgBEFt4OiKAAZhTAAtGYmpNSzQ10.jpeg"/>
+				</li>
+				
+				<li class="ig ig1">
+					<time>15/Aug.2018</time>
+					<p>拜拜，关于突尼斯的种种偏见！</p>
+					<img src="img/wKgBEFtzd2SAQ86fAAaWQ7nqRtU78.jpeg"/>
+				</li>
+				
+				
+			</ul>	
+		
+			<div class="rightside-img">
+				<img class="tab bg" src="img/wKgBEFt0_2CAb0XLAAMmtcm6V-E92.jpeg"/>
+				<img class="tab" src="img/wKgBEFt0BiiAQai-AARGxRH1CUs49.jpeg"/>
+				<img class="tab" src="img/wKgBEFt1By6AKzc7AASVvBCoikI13.jpeg"/>
+				<img class="tab" src="img/wKgBEFt4OhWAELeCAAWYjG3jD9Q57.jpeg"/>
+				<img class="tab" src="img/wKgBEFtzd06ABWQUAAPOm79m_rU37.jpeg"/>
+			</div>
+			<div class="search">
+				<form>
+					<div class="radio">					
+					
+						<label><input type="radio" name="cheak"/>全部</label>
+						<label><input type="radio" name="cheak"/>酒店</label>
+						<label><input type="radio" name="cheak"/>目的地</label>
+						<label><input type="radio" name="cheak"/>旅行商店</label>
+					</div>
+					<input type="text" name="search" placeholder="搜目的地/攻略/酒店/旅行特价"/>
+					<i class="fa fa-search fa-2x"></i>
+					
+				</form>
+			</div>
+			
+		</div>
+		<div class="content clearfix">
+			<div class="content-left">
+				<!--旅游家专栏-->
+				<div class="column-travel">
+					<div class="travel-header clearfix">
+						<h2>旅行家专栏</h2>
+						<span>专栏首页</span>
+					</div>
+					<div class="travel-banner">						
+						<div class="travel-img" id="banner">
+							<img src="img/wKgBEFt1Qf6AInQuAACjHFzz5JY46.jpeg"/>
+							<img src="img/wKgBEFt1QHaAMW4aAACxU7BnhwM50.jpeg"/>
+							<img src="img/wKgBEFtsFX2Ab2TnAAE54lBfgtQ37.jpeg"/>
+							<img src="img/wKgBEFttSQGAPDpkAAEqFB5Z5jM64.jpeg"/>
+							<img src="img/wKgBEFtytk2AUUAhAADlLJtVeUE41.jpeg"/>
+						</div>
+						<ul class="controls" id="controls">
+				            <li class="star"></li>
+				            <li></li>
+				            <li></li>
+				            <li></li>
+				            <li></li>
+       					</ul>
+					</div>
+					<div class="travel-content">
+						<h3><a href="#">旅行者的基本操守：不打听房价</a></h3>
+						<p>老天公平，给了潮州一个盆景式的西湖，却搭配了一江浩瀚宽阔的大水系。远山黛影，碧波万顷，渔舟往返，江流入海</p>
+					</div>
+					
+				</div>
+				
+				
+				
+				<!--旅游攻略推荐-->
+				<div class="travel-strategy ">
+					<div class="strategy-header clearfix">
+						<h2>旅游攻略推荐</h2>
+						<span>更多</span>
+					</div>
+					<div class="strategy-body ">
+						<img src="img/wKgBEFtqY4qAJsgZABbQS1Cg0nw71.jpeg"/>
+						<div class="strategy-body-mes">
+							<h4>宁波</h4>
+							<p>详细的吃、住、行、景点、线路、实用信息</p>
+						</div>
+					</div>
+					<div class="strategy-evaluate">
+						<p><a>刘碧瑶</a>点评了&nbsp;富士河山湖的<a>河口湖</a></p>
+						<p><a>叫哥哥</a>点评了&nbsp;思明区<a>河口湖酒</a></p>
+						<p><a>清平歌</a>点评了&nbsp;冰海的<a>河口湖酒</a></p>
+						<p><a>黑眼妹</a>点评了&nbsp;亚龙湾<a>河口湖酒</a></p>
+						<p><a>ren</a>点评了&nbsp;浦东新区<a>河口湖酒</a></p>
+					</div>
+				</div>
+				
+				
+				<!--最新活动-->
+				<div class="latest-activity clearfix">
+					<div class="activity-header">
+						<h2>最新活动</h2>
+						<span>查看全部</span>
+					</div>
+					<div class="activity-banner">						
+						<div class="activity-img" id="banner">
+							<img src="img/wKgBEFt1QHaAMW4aAACxU7BnhwM50.jpeg"/>
+							<img src="img/wKgBEFt1Qf6AInQuAACjHFzz5JY46.jpeg"/>							
+							<img src="img/wKgBEFtsFX2Ab2TnAAE54lBfgtQ37.jpeg"/>
+							<img src="img/wKgBEFttSQGAPDpkAAEqFB5Z5jM64.jpeg"/>
+							<img src="img/wKgBEFtytk2AUUAhAADlLJtVeUE41.jpeg"/>
+						</div>
+						<ul class="controls" id="controls">
+				            <li class="star"></li>
+				            <li></li>
+				            <li></li>
+				            <li></li>
+				            <li></li>
+       					</ul>
+       					
+					</div>
+					<div class="activity-content">
+						<p>清新暑期旅行种草机</p>
+						<p>让夏日成为你的镁光机</p>
+					</div>
+				</div>
+				
+				<!--未知旅行实验室-->
+				<div class="travel-lab ">
+					<div class="lab-header clearfix">
+						<h2>未知旅行实验室</h2>
+						<span>查看更多</span>
+					</div>
+					<img src="img/wKgBEFttSQGAPDpkAAEqFB5Z5jM64.jpeg"/>
+						
+				</div>
+				
+				<!--加入马蜂窝-->
+				<div class="travel-join ">
+					<div class="join-header clearfix">
+						<h2>加入马蜂窝</h2>
+						<span>更多职位</span>
+					</div>
+					<img src="img/wKgBEFtytk2AUUAhAADlLJtVeUE41.jpeg"/>
+					<div class="post clearfix">
+						<p>
+							<h3>广告销售经理</h3>
+							<span>申请职位</span>
+						</p>
+						<p>
+							<h3>资深PHP开发工程师</h3>
+							<span>申请职位</span>
+						</p>
+						<p>
+							<h3>广告执行经理</h3>
+							<span>申请职位</span>
+						</p>
+					</div>
+						
+				</div>
+				
+			
+			</div>
+			
+			
+			<div class="content-right">
+				<div class="hot-cake ">
+					<h3>爆款热卖</h3>
+					<ul class="hot-cake-i">
+						<li>
+							<img src="img/wKgBEFq5rQeAJ5IbAAJULmmkRsI68.jpeg"/>	
+							<p>长沙直飞泰国芭提雅6-7天往返机票（赠行李托运15Kg手提5KG+赠送意外险+可代办签证+2人起订赠送电话卡一张）</p>
+							<span>￥999起</span>
+						</li>
+						<li>
+							<img src="img/wKgBEFtUOgWAVO11AADaTDktCMM77.jpeg"/>
+							<p>长沙直飞泰国芭提雅6-7天往返机票（赠行李托运15Kg手提5KG+赠送意外险+可代办签证+2人起订赠送电话卡一张）</p>
+							<span>￥6680起</span>
+						</li>
+						<li>
+							<img src="img/wKgBEFsDtkqAI_NsAAUvValf6FY347.gif"/>
+							<p>长沙直飞泰国芭提雅6-7天往返机票（赠行李托运15Kg手提5KG+赠送意外险+可代办签证+2人起订赠送电话卡一张）</p>
+							<span>￥88起</span>
+						</li>
+					</ul>
+				</div>
+				<div class="travel-notes clearfix">
+					<div class="notes-header clearfix">
+						<h3>
+							<span>热门游记</span>
+							<span  id="sp1" ><i class="fa fa-bars"></i>筛选</span>						
+						</h3>
+						<h3>
+							最新发表						
+						</h3>
+						<h3><i class="fa fa-edit"></i>写游记</h3>
+						
+					</div> 
+					<div class="screen clearfix"  id="hobby">
+						<i class="fa fa-times" id="closei"></i>
+						<div class="screen-hed">
+							<span>目的地</span>
+							<div>
+								<input type="text"placeholder="请输入你想查看的目的地" />
+								<p>
+									<a href="#">斯里兰卡</a>
+									<a href="#">济州岛</a>
+									<a href="#">香港</a>
+									<a href="#">北京</a>
+									<a href="#">云南</a>
+									<a href="#">泰国</a>
+									<a href="#">青海湖</a>
+									<a href="#">日本</a>
+								</p>
+							</div>
+						</div>
+						<div class="hobby">
+							<div>目的地</div>
+							<ul>
+								<li>
+									<img src="img/screen-1.jpeg"/>
+									<div>
+										<a href="#">吃遍天下</a>
+										<span>无敌手</span>
+									</div>
+								</li>
+								<li>
+									<img src="img/screen-2.jpeg"/>
+									<div>
+										<a href="#">带着对象</a>
+										<span>去虐狗</span>
+									</div>
+								</li>
+								<li>
+									<img src="img/screen-3.jpeg"/>
+									<div>
+										<a href="#">姑娘漂亮</a>
+										<span>就是美</span>
+									</div>
+								</li>
+								<li>
+									<img src="img/screen-4.jpeg"/>
+									<div>
+										<a href="#">带着孩子</a>
+										<span>看世界</span>
+									</div>
+								</li>
+								<li>
+									<img src="img/screen-5.jpeg"/>
+									<div>
+										<a href="#">登上徒步</a>
+										<span>用脚走</span>
+									</div>
+								</li>
+								<li>
+									<img src="img/screen-6.jpeg"/>
+									<div>
+										<a href="#">带着父母</a>
+										<span>去远方</span>
+									</div>
+								</li>
+								<li>
+									<img src="img/screen-7.jpeg"/>
+									<div>
+										<a href="#">独自一人</a>
+										<span>最自由</span>
+									</div>
+								</li>
+								<li>
+									<img src="img/screen-8.jpeg"/>
+									<div>
+										<a href="#">短途周末</a>
+										<span>散散心</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<ul class="notes-cont">
+						<li>
+							<img src="img/notes1.jpeg"/> 
+							<div class="notes-test">
+								<h4>喀拉峻~梦想的草原——美疆6月行</h4>
+								<p>出行前听说，没去新疆，你感受不到祖国之大。去了之后发现，绕着伊犁县转了一大圈，居然也只是北疆一个小小的圈子，果然我国国土辽阔，惊叹这次的形成中的亮点是喀拉峻草原这..</p>
+								<div class="notes-bar">
+									<i class="fa fa-map-marker">新疆</i>
+									<span>by<i></i><a href="#">lvy</a></span>
+									<i class="fa fa-eye">6449/116</i>
+									<em class="fa fa-thumbs-up">492</em>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/notes2.jpeg"/> 
+							<div class="notes-test">
+								<h4>喀拉峻~梦想的草原——美疆6月行</h4>
+								<p>出行前听说，没去新疆，你感受不到祖国之大。去了之后发现，绕着伊犁县转了一大圈，居然也只是北疆一个小小的圈子，果然我国国土辽阔，惊叹这次的形成中的亮点是喀拉峻草原这..</p>
+								<div class="notes-bar">
+									<i class="fa fa-map-marker">新疆</i>
+									<span>by<i></i><a href="#">lvy</a></span>
+									<i class="fa fa-eye">6449/116</i>
+									<em class="fa fa-thumbs-up">492</em>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/notes3.jpeg"/> 
+							<div class="notes-test">
+								<h4>喀拉峻~梦想的草原——美疆6月行</h4>
+								<p>出行前听说，没去新疆，你感受不到祖国之大。去了之后发现，绕着伊犁县转了一大圈，居然也只是北疆一个小小的圈子，果然我国国土辽阔，惊叹这次的形成中的亮点是喀拉峻草原这..</p>
+								<div class="notes-bar">
+									<i class="fa fa-map-marker">新疆</i>
+									<span>by<i></i><a href="#">lvy</a></span>
+									<i class="fa fa-eye">6449/116</i>
+									<em class="fa fa-thumbs-up">492</em>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/notes4.jpeg"/> 
+							<div class="notes-test">
+								<h4>喀拉峻~梦想的草原——美疆6月行</h4>
+								<p>出行前听说，没去新疆，你感受不到祖国之大。去了之后发现，绕着伊犁县转了一大圈，居然也只是北疆一个小小的圈子，果然我国国土辽阔，惊叹这次的形成中的亮点是喀拉峻草原这..</p>
+								<div class="notes-bar">
+									<i class="fa fa-map-marker">新疆</i>
+									<span>by<i></i><a href="#">lvy</a></span>
+									<i class="fa fa-eye">6449/116</i>
+									<em class="fa fa-thumbs-up">492</em>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/notes1.jpeg"/> 
+							<div class="notes-test">
+								<h4>喀拉峻~梦想的草原——美疆6月行</h4>
+								<p>出行前听说，没去新疆，你感受不到祖国之大。去了之后发现，绕着伊犁县转了一大圈，居然也只是北疆一个小小的圈子，果然我国国土辽阔，惊叹这次的形成中的亮点是喀拉峻草原这..</p>
+								<div class="notes-bar">
+									<i class="fa fa-map-marker">新疆</i>
+									<span>by<i></i><a href="#">lvy</a></span>
+									<i class="fa fa-eye">6449/116</i>
+									<em class="fa fa-thumbs-up">492</em>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/notes6.jpeg"/> 
+							<div class="notes-test">
+								<h4>喀拉峻~梦想的草原——美疆6月行</h4>
+								<p>出行前听说，没去新疆，你感受不到祖国之大。去了之后发现，绕着伊犁县转了一大圈，居然也只是北疆一个小小的圈子，果然我国国土辽阔，惊叹这次的形成中的亮点是喀拉峻草原这..</p>
+								<div class="notes-bar">
+									<i class="fa fa-map-marker">新疆</i>
+									<span>by<i></i><a href="#">lvy</a></span>
+									<i class="fa fa-eye">6449/116</i>
+									<em class="fa fa-thumbs-up">492</em>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/notes2.jpeg"/> 
+							<div class="notes-test">
+								<h4>喀拉峻~梦想的草原——美疆6月行</h4>
+								<p>出行前听说，没去新疆，你感受不到祖国之大。去了之后发现，绕着伊犁县转了一大圈，居然也只是北疆一个小小的圈子，果然我国国土辽阔，惊叹这次的形成中的亮点是喀拉峻草原这..</p>
+								<div class="notes-bar">
+									<i class="fa fa-map-marker">新疆</i>
+									<span>by<i></i><a href="#">lvy</a></span>
+									<i class="fa fa-eye">6449/116</i>
+									<em class="fa fa-thumbs-up">492</em>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/notes3.jpeg"/> 
+							<div class="notes-test">
+								<h4>喀拉峻~梦想的草原——美疆6月行</h4>
+								<p>出行前听说，没去新疆，你感受不到祖国之大。去了之后发现，绕着伊犁县转了一大圈，居然也只是北疆一个小小的圈子，果然我国国土辽阔，惊叹这次的形成中的亮点是喀拉峻草原这..</p>
+								<div class="notes-bar">
+									<i class="fa fa-map-marker">新疆</i>
+									<span>by<i></i><a href="#">lvy</a></span>
+									<i class="fa fa-eye">6449/116</i>
+									<em class="fa fa-thumbs-up">492</em>
+								</div>
+							</div>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="page">
+					<span>
+						共167页/2000条
+					</span>
+					<span class="page-num">
+						<a href="#" class="active">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">7</a>
+						<a href="#">8</a>
+						<a href="#">9</a>
+					</span>
+					<span>下一页>></span>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		
+		<footer>
+			<div class="foot">
+				<div class="guild">
+					<h4>全球旅游消费指南</h4>
+					<p>覆盖全球200多个国家和地区</p>
+					<p>100,000,000位旅行者</p>
+					<p>920,000家国际酒店</p>
+					<p>21,000,000条真实点评</p>
+					<p>382,000,000次攻略下载</p>
+					<p>中国旅游行业第一部“玩法”</p>
+				</div>
+				<div class="about">
+					<h4>关于我们</h4>
+					<p><span>关于马蜂窝</span><span>联系我们</span></p>
+					<p><span>隐私政策</span><span>商标声明</span></p>
+					<p><span>服务协议</span><span>游记协议</span></p>
+					<p>商城平台服务协议</p>
+					<p>网络信息侵权通知指引</p>
+					<p><span>网站地图</span><span>加入马蜂窝</span></p>
+				</div>
+				<div class="service">
+					<h4>旅行服务</h4>
+					<p><span>旅游攻略</span><span>酒店预订</span></p>
+					<p><span>旅游特价</span><span>国际租车</span></p>
+					<p><span>旅游问答</span><span>旅游保险</span></p>
+					<p><span>旅游指南</span><span>订火车票</span></p>
+					<p><span>旅游资讯</span><span>APP下载</span></p>
+					<p>旅行商城全球商家入驻</p>
+				</div>
+				<div class="code">
+					<span>
+						<img src="img/code.png"/>
+						<p>马蜂窝APP</p>
+						<p>扫描立即下载</p>
+					</span>
+					<span>
+						<img src="img/qr_mfw4.gif"/>
+						<p>马蜂窝旅游</p>
+						<p>订阅号</p>
+					</span>
+
+					<span>
+						<img src="img/qr_tejia4.png"/>
+						<p>马蜂窝良品</p>
+						<p>官网服务号</p>
+					</span>
+
+				</div>
+				<p>向崇尚自由的加勒比海盗致敬！</p>
+				<p class="weibo"><i></i><i></i><i></i></p>
+				<div class="link">
+					<a href="#">马可波罗</a>
+					<a href="#">Onlylady女人志</a>
+					<a href="#">艺龙旅游指南</a>
+					<a href="#">欣欣旅游指南</a>
+					<a href="#">户外运动</a>
+					<a href="#">365音乐网</a>
+					<a href="#">爱共享资料</a>
+					<a href="#">旅游网</a>
+					<a href="#">小说网</a>
+					<a href="#">学习啦</a>
+					<a href="#">游多多自助游</a>
+					<a href="#">问答</a>
+					<a href="#">火车时刻表</a>
+					<a href="#">驴妈妈旅游网</a>
+					<a href="#">好豆美食网</a>
+					<a href="#">二手车</a>
+					<a href="#">绿野户外</a>
+					<a href="#">途牛旅游网</a>
+					<a href="#">SUV联合越野</a>
+					<a href="#">手机浏览器</a>
+					<a href="#">上海地图</a>
+					<a href="#">天气预报查询</a>
+					<a href="#">同城旅游</a>
+					<a href="#">火车票</a>
+					<a href="#">YunOS</a>
+					<a href="#">携程旅游</a>
+					<a href="#">景江旅游</a>
+					<a href="#">火车时刻表</a>
+					<a href="#">TripAdvisor</a>
+					<a href="#">天巡网</a>
+					<a href="#">短租房</a>
+					<a href="#">租租车</a>
+					<a href="#">五分旅游网</a>
+					<a href="#">酒店预订</a>
+					<a href="#">爱旅行网</a>
+					<a href="#">旅游</a>
+					<a href="#">旅游网</a>
+					<a href="#">wed114结婚网</a>
+					<a href="#">车讯网</a>
+					<a href="#">遨游旅行网</a>
+					<a href="#">手机</a>
+					<a href="#">更多友情链接>></a>
+				</div>
+				<div class="copyright">
+					<i class="head-logo"></i>
+					<div>
+						<p>&copy;2018Mafengwo.cn<a href="#">京ICP备11015476号</a><img src="img/police_record.png" /><a href="#">京公网备11010502013401号</a><a href="#">京ICP证110318号</a>&nbsp;网络出版服务许可证：（总）网出证（京）字第161号</p>
+						<p>增值电信业务经营许可证：京B2-20180228:&nbsp;&nbsp;<a href="#">营业执照</a>&nbsp;&nbsp;<a href="#">帮助中心</a>&nbsp;&nbsp;<a href="#">马蜂窝客服</a>:国内<span>4006-345-678</span>海外<span>+86-10-5922-2799</span></p>
+					</div>
+				</div>
+				<div class="head-img">
+					<i></i><i></i><i></i>
+				</div>
+			
+			</div>
+			
+		</footer>
+		<div class="fix1">
+			<img src="img/coupon-hx-v2.png"/>
+		</div>
+		<ul class="fix2">
+			<li>
+				<i></i>
+				<a href="#top">返回顶部</a>
+			</li>
+			<li>
+				<i></i>
+				<a>意见反馈</a>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			
+				var oHobby=document.getElementById('hobby');
+				sp1.onclick=function(){
+				oHobby.style.display='block';
+				}
+				closei.onclick=function(){
+				oHobby.style.display='none';
+				}
+		
+				
+		</script>
+	</body>
+
+</html>

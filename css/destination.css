@@ -1,0 +1,446 @@
+.waterfall-flow{
+	width: 1000px;
+	margin: 0 auto;
+	-webkit-column-width: 300px;
+	-moz-column-width: 300px;
+	margin-top: 40px;
+}
+.pic {
+	margin-top: 10px;
+	transition: 0.8s;
+	cursor: pointer;
+	position: relative;
+}
+.pic i{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	display: block;
+	width:32px ;
+	height: 32px;
+	background: url(../img/imgs/sprite.png);
+	background-position: 0 -29px;
+}
+.pic i:hover{
+	background-position: 0  -65px;
+}
+.pic:hover{
+	transform: scale(1.05);
+}
+
+a{
+	color: black;
+}
+a:hover{
+	color: #ffa021;
+	
+}
+header{
+	
+	box-shadow: 0 2px 5px #aaa;
+}
+.nav{
+	width: 1024px;
+	height:70px ;
+	margin: 0 auto;
+}
+.nav .logo{
+	width: 150px;
+	height: 40px;
+	margin-top: 15px;
+	background-image: url(../img/header-sprites13.png);
+	background-repeat: no-repeat;
+	float: left;
+	
+}
+.nav .navbar{
+	float: left;
+}
+.nav .navbar .navbar-i{
+	position: relative;
+}
+.navbar-i>li{
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	padding: 0 15px;
+	margin-left: 2px;
+	text-align: center;
+}
+.navbar-i>li:hover a{
+	color: #ff9d00;
+	
+}
+
+.navbar-i li.active{	
+	background: #ff9d00;
+	color: white;	
+	cursor: pointer;
+}
+.active ul li{
+	color: black;
+}
+.navbar-i li.active:hover{	
+	background: #ff9d00;
+	color: white;
+}
+.navbar-i li ul{	
+	line-height: 40px;
+	display: none;
+	position: absolute;
+	z-index: 100;
+	background: #EEEEEE;
+	
+}
+.nav ul>li>a{
+	color:#000;
+}
+input{
+	width: 120px;
+	height: 30px;
+	background: #efefef;
+	border: none;
+	position: absolute;
+	top: 20px;
+	right: -120px;
+	transition: width 1s;
+	border: none;
+	
+}
+.input i{
+	position: absolute;
+	top: 27px;
+	right: -110px;
+	color: orange;
+}
+input:focus{
+	width: 380px;
+	outline: none;
+	border: 1px solid orange;
+	box-shadow: 0 0 10px orange;
+	background: white;
+}
+
+
+.login{
+	height: 70px;
+	float: left;
+	margin-left: 140px;
+	
+}
+.login i{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-top: 20px;
+	cursor: pointer;
+	background-image: url(../img/header-sprites13.png);
+}
+.login .weibo{	
+	background-position: 0 -50px ;	
+}
+.login .qq {
+	background-position: -30px -50px ;
+}
+.login .weixin{
+	background-position: 0 -165px ;
+}
+.login .weibo:hover{
+	background-position: 0 -80px ;
+}
+.login .qq:hover {	
+	background-position: -30px -80px ;
+}
+.login .weixin:hover{
+	background-position: -30px -165px ;
+}
+.login a{
+	display: inline-block;
+	color: #ff9d00;
+	cursor: pointer;
+	vertical-align: top;
+	
+	margin: 0 5px;
+	margin-top: 20px;
+}
+.login a:hover{
+	text-decoration: underline;
+}
+.login span{
+	display: inline-block;
+	color: #eee;
+	vertical-align: top;
+	margin-top: 20px;
+	
+}
+.navigation {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+}
+.navigation>div:first-child{
+	margin-top: 10px;
+}
+.navigation em{
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	
+}
+.navigation i{
+	width: 0;
+	height: 0;
+	display: inline-block;
+	border-top: 3px solid orange;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	margin-left: 4px;
+	padding-bottom: 3px;
+}
+.navigation div:first-child div{
+	position: relative;
+}
+.navigation div:first-child div:hover ul{
+	display: block;
+	background: white;
+}
+.navigation a{
+	display: block;
+	float: left;
+	font-size: 12px;color: #666666;
+	margin: 3px;
+}
+.navigation div:first-child ul{
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	font-size: 12px;
+	line-height: 20px;
+	background: white;
+}
+.navigation div:first-child ul li{
+	width: 100px;
+	padding: 5px;
+	cursor: pointer;
+}
+.navigation div:first-child ul li:hover{
+	background:#fff1d7 ;
+}
+.navigation div:last-child{
+	margin-top: 20px;
+}
+.navigation div:last-child ul li{	
+	cursor: pointer;
+	border-right: 1px solid #eee;
+}
+.navigation div:last-child ul li:hover{
+	color:orange;
+	
+	border-bottom:2px solid orange ;
+}
+.navigation div:last-child h2{
+	font-size:20px;
+	float: left;
+	padding-top: 5px;
+}
+
+.navigation div:last-child p{
+	float: left;
+	color: #ccc;
+	font-size: 12px;
+	
+}
+.navigation div:last-child span{
+	color: orange;
+	height: 40px;
+}
+.navigation div:last-child ul{
+	float: right;
+}
+.navigation div:last-child ul li{
+	float: left;
+	padding: 10px;
+}
+footer{
+	margin-top: 30px;
+	height: 600px;
+	background:#3c3c3c ;
+}
+.foot{
+	width: 1024px ;
+	margin: 0 auto;
+	height: 600px;
+	color: #ccc;
+}
+.foot .about,
+.foot .service,
+.foot .code,
+.foot .guild{
+	float: left;
+	font-size: 12px;
+	margin-right: 60px;
+	margin-top: 20px;
+	line-height: 10px;
+}
+.foot h4{
+	font-weight: normal;
+	font-size: 14px;
+}
+.foot .service span{
+	margin-right: 30px;
+}
+.foot .about span{
+	margin-right: 10px;
+}
+.foot .about p,.foot .service p{
+	cursor: pointer;
+}
+.foot .about span:hover,.foot .service span:hover{
+	color: white;
+	
+}
+.code span{
+	width: 90px;
+	float: left;
+	margin-right: 24px ;
+	margin-top: 40px;
+	
+}
+
+.code p{
+	text-align: center;
+}
+.foot>p{
+	text-align: center;
+}
+.foot .code>p:nth-child(2) i{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	border:1px solid red;
+	background: url(../img/mfw-footer-sprite7.png);
+}
+.foot .weibo i{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: red;
+	margin: 0 5px;
+	background: url(../img/mfw-footer-sprite7.png);
+}
+.foot .weibo i:nth-child(2){
+	background-position: -30px 0;
+}
+.foot .weibo i:nth-child(3){
+	background-position: -60px 0;
+}
+.foot .copyright a,
+.foot .link a{
+	font-size: 12px;
+	color: #ccc;
+	
+}
+.foot .link{
+	border-top: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	line-height: 26px;
+	padding: 20px 0;
+	margin-top: 40px;
+}
+.foot .copyright a:hover,
+.foot .link a:hover{
+	color: white;
+}
+.copyright{
+	margin-top: 20px;
+	font-size: 12px;
+}
+.copyright div{
+	float: left;
+	margin-left: 20px;
+}
+.copyright div img{
+	width: 15px;
+	height: 15px;
+}
+.copyright .head-logo{
+	width: 140px;
+	height: 35px;
+	display: inline-block;
+	background: url(../img/mfw-footer-sprite7.png);
+	background-position:0 -30px ;
+	float: left;
+}
+.head-img {
+	text-align: center;
+}
+.head-img i{
+	width: 90px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img/mfw-footer-sprite7.png);
+	margin: 5px;
+}
+.head-img i:first-child{
+	background-position: 0 -70px;
+}
+.head-img i:nth-child(2){
+	background-position: 0 -110px;
+}
+.head-img i:nth-child(3){
+	background-position: 0 -150px;
+}
+.fix1{
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	bottom: 0px;
+	
+}
+.fix2{
+	width: 45px;
+	height: 135px;
+	position: fixed;
+	right: 10%;
+	bottom: 0;
+}
+.fix2 li{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+.fix2 li:hover a{
+	display: block;
+	background: #ccc;
+	z-index: 2;
+	color: white;
+	
+}
+.fix2 i{
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/header-sprites13.png);
+	background-position:-60px -160px ;
+	margin: 10px 12px;
+	z-index: 1;
+	
+}
+.fix2 li:last-child i{
+	background-position:-90px -162px ;
+}
+.fix2 a{
+	width: 45px;
+	height: 45px;
+	background: #aaa;
+	display: none;
+	position: absolute;
+	text-align: center;
+}
