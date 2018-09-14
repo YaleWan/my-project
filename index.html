@@ -8,13 +8,17 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	
 		
 	</head>
 	<body>
+		<!-- 头部 -->
 		<header>
 			<div class="nav" id="top">
-				<div class="logo"></div>			
+				<!-- logo -->
+				<div class="logo"></div>
+				<!-- 导航条部分			 -->
 				<div class="navbar">
 					<ul class="navbar-i">
 						<li class="active">首页</li>
@@ -39,6 +43,7 @@
 						<li><a href="#">APP</a></li>
 					</ul>
 				</div>
+				<!-- 导航条上的登录方式 -->
 				<div class="login">
 					<i class="weibo"></i>
 					<i class="qq"></i>
@@ -49,6 +54,8 @@
 				</div>
 			</div>
 		</header>
+
+		<!-- banner -->
 		<div id="banner" class="banner clearfix">
 			<ul class="banner-imgs">
 				<li class="ig ig1">
@@ -80,7 +87,8 @@
 				</li>
 				
 				
-			</ul>	
+			</ul>
+			<!-- banner图的缩览图	 -->
 		
 			<div class="rightside-img">
 				<img class="tab bg" src="img/wKgBEFt0_2CAb0XLAAMmtcm6V-E92.jpeg"/>
@@ -89,6 +97,8 @@
 				<img class="tab" src="img/wKgBEFt4OhWAELeCAAWYjG3jD9Q57.jpeg"/>
 				<img class="tab" src="img/wKgBEFtzd06ABWQUAAPOm79m_rU37.jpeg"/>
 			</div>
+
+			<!-- 搜索框 -->
 			<div class="search">
 				<form>
 					<div class="radio">					
@@ -105,6 +115,8 @@
 			</div>
 			
 		</div>
+
+		<!-- 内容主体部分 -->
 		<div class="content clearfix">
 			<div class="content-left">
 				<!--旅游家专栏-->
@@ -113,25 +125,55 @@
 						<h2>旅行家专栏</h2>
 						<span>专栏首页</span>
 					</div>
+
+					<!-- 右侧栏的轮播图 -->
 					<div class="travel-banner">						
-						<div class="travel-img" id="banner">
-							<img src="img/wKgBEFt1Qf6AInQuAACjHFzz5JY46.jpeg"/>
-							<img src="img/wKgBEFt1QHaAMW4aAACxU7BnhwM50.jpeg"/>
-							<img src="img/wKgBEFtsFX2Ab2TnAAE54lBfgtQ37.jpeg"/>
-							<img src="img/wKgBEFttSQGAPDpkAAEqFB5Z5jM64.jpeg"/>
-							<img src="img/wKgBEFtytk2AUUAhAADlLJtVeUE41.jpeg"/>
+						<div class="banner_images">
+							<div class="banner_img">
+								<a href=""><img src="img/wKgBEFt1Qf6AInQuAACjHFzz5JY46.jpeg"/></a>
+								<div class="travel-content">
+									<h3><a href="#">旅行者的基本操守：不打听房价</a></h3>
+									<p>老天公平，给了潮州一个盆景式的西湖，却搭配了一江浩瀚宽阔的大水系。远山黛影，碧波万顷，渔舟往返，江流入海</p>
+								</div>
+							</div>
+							<div class="banner_img">
+								<a href=""><img src="img/wKgBEFt1QHaAMW4aAACxU7BnhwM50.jpeg"/></a>
+								<div class="travel-content">
+									<h3><a href="#">坎纳诺尔的舞者</a></h3>
+									<p>在印度教中，毗湿奴有“维护”之神的称号，性格温和，常化身为各种形象，拯救世界于危难之中。</p>
+								</div>
+							</div>
+							<div class="banner_img">
+								<a href=""><img src="img/wKgBEFtsFX2Ab2TnAAE54lBfgtQ37.jpeg"/></a>
+								<div class="travel-content">
+									<h3><a href="#">关于达连地堑的断舍离报告</a></h3>
+									<p>飞越达连地堑，不是放弃，而是放下，是为能继续轻装前进、行去更远北方的断舍离。</p>
+								</div>
+							</div>
+							<div class="banner_img">
+								<a href=""><img src="img/wKgBEFttSQGAPDpkAAEqFB5Z5jM64.jpeg"/></a>
+								<div class="travel-content">
+									<h3><a href="#">天山雪莲为什么越来越少</a></h3>
+									<p>雪莲，这个因其成长于严酷的环境而具有珍贵的物种价值、美学价值与医药学价值的物种，要恢复往日繁荣，还很艰难。</p>
+								</div>
+							</div>
+							<div class="banner_img">
+								<a href=""><img src="img/wKgBEFtytk2AUUAhAADlLJtVeUE41.jpeg"/></a>
+								<div class="travel-content">
+									<h3><a href="#">Elena来自贝尔格莱德</a></h3>
+									<p>淡淡的天光下，我终于可以看清贝尔格莱德的样子。从某个方向望去，它就像梵高笔下的小城。</p>
+								</div>
+							</div>
 						</div>
-						<ul class="controls" id="controls">
-				            <li class="star"></li>
-				            <li></li>
-				            <li></li>
-				            <li></li>
-				            <li></li>
-       					</ul>
-					</div>
-					<div class="travel-content">
-						<h3><a href="#">旅行者的基本操守：不打听房价</a></h3>
-						<p>老天公平，给了潮州一个盆景式的西湖，却搭配了一江浩瀚宽阔的大水系。远山黛影，碧波万顷，渔舟往返，江流入海</p>
+
+						<!-- 缩览图的圆点 -->
+						<ul class="points">
+							<li class="point_on"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
 					</div>
 					
 				</div>
@@ -227,15 +269,15 @@
 			
 			</div>
 			
-			
+			<!-- 主体右侧内容 -->
 			<div class="content-right">
 				<div class="hot-cake ">
 					<h3>爆款热卖</h3>
 					<ul class="hot-cake-i">
-						<li>
+						<li><a href="pay.html">
 							<img src="img/wKgBEFq5rQeAJ5IbAAJULmmkRsI68.jpeg"/>	
 							<p>长沙直飞泰国芭提雅6-7天往返机票（赠行李托运15Kg手提5KG+赠送意外险+可代办签证+2人起订赠送电话卡一张）</p>
-							<span>￥999起</span>
+							<span>￥999起</span></a>
 						</li>
 						<li>
 							<img src="img/wKgBEFtUOgWAVO11AADaTDktCMM77.jpeg"/>
@@ -249,6 +291,8 @@
 						</li>
 					</ul>
 				</div>
+
+				<!-- 热门游记 -->
 				<div class="travel-notes clearfix">
 					<div class="notes-header clearfix">
 						<h3>
@@ -261,6 +305,9 @@
 						<h3><i class="fa fa-edit"></i>写游记</h3>
 						
 					</div> 
+
+
+					<!-- 筛选内容 -->
 					<div class="screen clearfix"  id="hobby">
 						<i class="fa fa-times" id="closei"></i>
 						<div class="screen-hed">
@@ -341,6 +388,8 @@
 							</ul>
 						</div>
 					</div>
+
+					<!-- 游记 -->
 					<ul class="notes-cont">
 						<li>
 							<img src="img/notes1.jpeg"/> 
@@ -449,6 +498,8 @@
 					</ul>
 					
 				</div>
+
+				<!-- 页码 -->
 				<div class="page">
 					<span>
 						共167页/2000条
@@ -471,7 +522,7 @@
 			
 		</div>
 		
-		
+		<!-- 页脚 -->
 		
 		<footer>
 			<div class="foot">

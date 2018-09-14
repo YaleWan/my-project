@@ -5,6 +5,14 @@ a:hover{
 	color: #ffa021;
 	
 }
+input[type=text]:focus{
+	outline: none;
+	border: 1px solid orange;
+	box-shadow: 0 0 10px orange;
+	background: white;
+	transition: box-shadow 0.8s;
+}
+/* 导航条部分样式 */
 .nav{
 	width: 1024px;
 	height:74px ;
@@ -91,7 +99,15 @@ a:hover{
 .nav ul>li>a{
 	color:#000;
 }
+.navbar-i i{
+	width:30px;
+	height: 20px;
+	display: inline-block;
+	background: url(../img/);
+}
 
+
+/* 登录部分样式 */
 
 .login{
 	height: 70px;
@@ -177,6 +193,8 @@ a:hover{
 	width: 100%;
 	display: block;
 }
+
+/* 右侧缩览图部分 */
 .rightside-img {
 	position: absolute;
 	right: 10%;
@@ -191,6 +209,8 @@ a:hover{
 	
 	
 }
+
+/* 搜索框部分 */
 .search{
 	width: 640px;
 	height: 110px;
@@ -273,7 +293,7 @@ a:hover{
 	line-height: 36px;
 	font-size: 18px;
 	float: left;
-	margin-bottom:20px ;
+	margin-bottom:20px;
 }
 .travel-join .join-header span,
 .travel-lab .lab-header span,
@@ -291,50 +311,47 @@ a:hover{
 .latest-activity .activity-banner,
 .column-travel  .travel-banner{
 	width:260px ;
-	height: 140px;
+	height: 260px;
 	overflow: hidden;	
 	position: relative;
 	
 }
-.latest-activity .activity-banner .activity-img,
-.column-travel  .travel-banner .travel-img{
+.activity-banner .activity-img,
+.travel-banner .banner_images{
 	width: 9999px;
-	height: 140px;
-    transition:all 0.5s;
+	height: 260px;
+	position: absolute;
+	left: 0;
+	
 }
-.latest-activity .activity-banner img,
-.column-travel  .travel-banner img{
+.banner_images .banner_img{
 	float: left;
-	width:260px ;
-	height: 140px;
+	height: 260px;
 }
-/*
-.column-travel  .travel-banner .controls{
-            width: 100px;
-            height: 15px;
-            background-color:rgba(0,0,0,.5);
-            border-radius:10px;
-            position: absolute;
-            bottom:10px;
-            left:50%;
-            margin-left:-50px;
-        }
-        .controls li:first-child{
-            margin-left:4px;
-        }
-        .controls li{
-            cursor:pointer;
-            float:left;
-            width: 15px;
-            height: 15px;
-            margin-right:4px;
-            background-color: #ccc;
-            border-radius: 50%;
-        }
-        .controls li.star{
-            background-color: gold;
-}*/
 
+.points{
+	position: absolute;
+	top:110px ;
+	right: 10px;
+	
+}
+.points li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../img/header-sprites13.png);
+	background-position: -60px -110px;
+	cursor: pointer;
+
+}
+.points li.point_on{
+	background-position: -60px -140px;
+}
+
+
+.travel-content{
+	width: 260px;
+}
 .travel-content h3{
 	line-height: 26px;
 	font-size: 16px;
@@ -354,7 +371,6 @@ a:hover{
 	width:120px ;
 	height: 200px;
 	
-	/*margin-left:10px;*/
 }
 .strategy-body .strategy-body-mes h4{
 	font-size: 30px;
@@ -720,7 +736,7 @@ a:hover{
 	cursor: pointer;
 }
 
-
+/* 页脚部分 */
 footer{
 	margin-top: 30px;
 	height: 600px;

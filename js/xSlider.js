@@ -1,4 +1,4 @@
-;(function($){
+(function($){
 
   var xSlider = function(el, userConfig) {
 

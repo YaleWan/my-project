@@ -1,0 +1,685 @@
+a{
+	color: black;
+}
+a:hover{
+	color: #ffa021;
+	
+}
+/*头部阴影*/
+header{
+	
+	box-shadow: 0 2px 5px #aaa;
+}
+.nav{
+	width: 1024px;
+	height:70px ;
+	margin: 0 auto;
+}
+.nav .logo{
+	width: 150px;
+	height: 40px;
+	margin-top: 15px;
+	background-image: url(../img/header-sprites13.png);
+	background-repeat: no-repeat;
+	float: left;
+	
+}
+.nav .navbar{
+	float: left;
+}
+.nav .navbar .navbar-i{
+	position: relative;
+}
+
+.navbar-i>li:hover{
+	border-bottom: 4px solid orange;
+}
+.navbar-i>li{
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	padding: 0 15px;
+	margin-left: 2px;
+	text-align: center;
+}
+.navbar-i>li:hover a{
+	color: #ff9d00;
+	
+}
+
+.navbar-i li.active{	
+	background: #ff9d00;
+	color: white;	
+	cursor: pointer;
+}
+.active ul li{
+	color: black;
+}
+.navbar-i li.active:hover{	
+	background: #ff9d00;
+	color: white;
+}
+.navbar-i li ul{	
+	line-height: 40px;
+	display: none;
+	position: absolute;
+	z-index: 100;
+	background: #EEEEEE;
+	
+}
+.nav ul>li>a{
+	color:#000;
+}
+header input{
+	width: 120px;
+	height: 30px;
+	background: #efefef;
+	border: none;
+	position: absolute;
+	top: 20px;
+	right: -120px;
+	transition: width 1s;
+	border: none;
+	
+}
+.input i{
+	position: absolute;
+	top: 27px;
+	right: -110px;
+	color: orange;
+}
+header input[type=text]:focus{
+	width: 380px;
+	outline: none;
+	border: 1px solid orange;
+	box-shadow: 0 0 10px orange;
+	background: white;
+}
+
+
+.login{
+	height: 70px;
+	float: left;
+	margin-left: 140px;
+	
+}
+.login i{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-top: 20px;
+	cursor: pointer;
+	background-image: url(../img/header-sprites13.png);
+}
+.login .weibo{	
+	background-position: 0 -50px ;	
+}
+.login .qq {
+	background-position: -30px -50px ;
+}
+.login .weixin{
+	background-position: 0 -165px ;
+}
+.login .weibo:hover{
+	background-position: 0 -80px ;
+}
+.login .qq:hover {	
+	background-position: -30px -80px ;
+}
+.login .weixin:hover{
+	background-position: -30px -165px ;
+}
+.login a{
+	display: inline-block;
+	color: #ff9d00;
+	cursor: pointer;
+	vertical-align: top;
+	
+	margin: 0 5px;
+	margin-top: 20px;
+}
+.login a:hover{
+	text-decoration: underline;
+}
+.login span{
+	display: inline-block;
+	color: #eee;
+	vertical-align: top;
+	margin-top: 20px;
+	
+}
+nav{
+	width: 1200px;
+	height: 40px;
+	margin:0 auto;
+	text-align: center;
+}
+
+nav ul li {
+	float: left;
+	padding: 0 20px;
+	border-right: 1px #aaa solid;
+	padding-bottom: 10px;	
+}
+nav ul li.active{
+	border-bottom: 3px solid orange;
+	
+	
+} 
+nav ul li.active a{
+	color: orange;
+}
+nav ul li:hover{
+	border-bottom: 4px solid orange;
+}
+nav ul{
+	width: 720px;
+	margin:  0 auto;
+	margin-top:10px ;
+}
+nav ul li a{
+	color: #333;
+	font-size: 14px;
+}
+form{
+	width: 1000px;
+	margin:  0 auto;
+}
+.form-field{
+	float: left;
+}
+.form-field li{
+	list-style: none;
+	float: left;
+	font-size: 14px;
+	color: orange;
+	position: relative;
+	border-top: 4px solid #E5E5E5;
+	
+}
+.form-field li.active p{
+	background: orange;
+	border: none;
+}
+.form-field li.active i{
+	background: white;
+}
+.form-field li.active{
+	border-top: 4px solid orange;
+}
+.buy-step{
+	margin-top: 50px;
+}
+.form-field li:first-child{
+	width: 165px;
+	height: 50px;
+}
+.form-field li:nth-child(2){
+	width: 230px;
+	height: 50px;
+}
+.form-field li:last-child{
+	width: 165px;
+	height: 50px;
+}
+.buy-step p{
+	border: 1px solid #e5e5e5;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: -26px;
+	
+}
+.form-field li:nth-child(1) p{
+	
+	left: -11px;
+}
+.form-field li:nth-child(2) p{
+	left:104px ;
+}
+.form-field li:nth-child(3) p{
+	right: -11px;
+}
+.buy-step i{
+	width:8px ;
+	height: 8px;
+	display: block;
+	border-radius: 50%;
+	background: #e5e5e5;
+	position: absolute;
+	top: 7px;
+	left: 7px;
+}
+.buy-step span{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: -25px;
+	
+}
+.reserve-inf,
+.traveller-insure,
+.traveller-inf {
+	margin-top: 30px;
+	width: 570px;
+}
+.tra-h h2{
+	font-size: 20px;
+}
+.tra-h h2 span:first-child{
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background: orange;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	line-height: 22px;
+	font-size: 12px;
+	margin-right:20px ;
+	
+}
+.tra-h h2 span:last-child{
+	color:#ccc ;
+}
+.traveller-one {
+	height: 240px;
+	overflow: hidden;
+	transition: 1s;
+}
+
+.traveller-two p,
+.traveller-one p{
+	position: relative;
+}
+.traveller-two p i,
+.traveller-one p i{
+	position: absolute;
+	left: 10px;
+	top: -10px;
+	color: orange;
+	font-style: normal;
+	background: white;
+	padding:0 5px;
+	font-size: 12px;
+}
+.traveller-one p i.second{
+	position: absolute;
+	left:300px;
+	top: -10px;
+	color: orange;
+	font-style: normal;
+	background: white;
+	padding:0 5px;
+	font-size: 12px;
+}
+
+
+
+
+.traveller-one p:nth-child(1){
+	position: relative;
+}
+.traveller-one p:nth-child(1) span{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px;
+	cursor: pointer;
+	color: orange;
+}
+.traveller-one p:nth-child(1) span:last-child{
+	display: none;
+}
+.traveller-two p input,
+.traveller-one p input{
+	width:260px ;
+	height: 40px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.traveller-one p input:nth-of-type(2){
+	margin-left: 30px;
+}
+
+
+.guarantee{
+	width: 540px;
+	height: 65px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	position: relative;
+}
+
+.guarantee input{
+	width:18px ;
+	height: 18px;
+	border-radius: 3px;
+	background: white;
+	margin: 10px;
+	float: left;
+}
+.guarantee div{
+	float: left;
+}
+.guarantee div p:first-child{
+	margin-top:5px;
+	margin-bottom: 0;
+	padding: 0;
+}
+.guarantee div p:nth-child(2){
+	color: #ccc;
+	font-size: 12px;
+	padding: 0;
+	margin-top: 5px;
+}
+.guarantee span{
+	margin-left: 20px;
+	color: red;
+}
+.guarantee div p:nth-child(3){
+	position: absolute;
+	right: 5px;
+	top: 0;
+	font-size: 14px;
+	color: orange;
+}
+.content input[type=text]:focus{
+	
+	outline: none;
+	border: 1px solid orange;
+	background: white;
+}
+
+.reserve-inf p:last-child input{
+	width:540px ;
+	height: 60px;
+}
+
+
+.cont-right{
+	width: 310px;
+	height: 410px;
+	float: right;
+	box-shadow: 0 2px 5px #ccc;
+	margin-top: 30px;
+}
+.cont-right img{
+	width: 310px;
+	height: 180px;
+}.cont-right>p{
+	margin-top: 0px;
+	padding:5px 20px;
+}
+.cont-right div{
+	padding: 0 20px;
+	border-top: 1px solid #ccc;
+}
+.cont-right div p:nth-child(2) time{
+	float: right;
+	
+}
+.cont-right div p:nth-child(3) span{
+	float: right;
+}
+
+
+.buy{
+	clear: both;
+	width: 1000px;
+	height: 220px;
+	margin: 0 auto;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.buy .left{
+	float: left;
+}
+.buy .cost{
+	float: right;
+	text-align: right;
+}
+.buy i{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background: url(../img/new-order-sprites01.png);
+	background-position: 0 -42px ;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.cost p:first-child span:last-child{
+	margin-left: 120px;
+}
+.cost p:last-child span:last-child{
+	font-weight: bold;
+	font-size: 30px;
+	color: orange;
+	margin-left: 20px;
+}
+.submit{
+	font-size: 14px ;
+	margin-top: 20px;
+}
+.submit i{
+	width: 16px;
+	height: 16px;
+	float: left;
+	background: url(../img/new-order-sprites01.png);
+	background-position: -20px -84px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.submit p{
+	float: left;
+}
+.submit span{
+	color: cornflowerblue;
+}
+.submit button{
+	float:right;
+	width: 130px;
+	height: 40px;
+	background: orange;
+	color: white;
+	text-align: center;
+	height: 40px;
+	font-size: 18px;
+	border: none;
+}
+
+
+
+footer{
+	margin-top: 30px;
+	height: 600px;
+	background:#3c3c3c ;
+}
+.foot{
+	width: 1024px ;
+	margin: 0 auto;
+	height: 600px;
+	color: #ccc;
+}
+.foot .about,
+.foot .service,
+.foot .code,
+.foot .guild{
+	float: left;
+	font-size: 12px;
+	margin-right: 60px;
+	margin-top: 20px;
+	line-height: 10px;
+}
+.foot h4{
+	font-weight: normal;
+	font-size: 14px;
+}
+.foot .service span{
+	margin-right: 30px;
+}
+.foot .about span{
+	margin-right: 10px;
+}
+.foot .about p,.foot .service p{
+	cursor: pointer;
+}
+.foot .about span:hover,.foot .service span:hover{
+	color: white;
+	
+}
+.code span{
+	width: 90px;
+	float: left;
+	margin-right: 24px ;
+	margin-top: 40px;
+	
+}
+
+.code p{
+	text-align: center;
+}
+.foot>p{
+	text-align: center;
+}
+.foot .code>p:nth-child(2) i{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	border:1px solid red;
+	background: url(../img/mfw-footer-sprite7.png);
+}
+.foot .weibo i{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: red;
+	margin: 0 5px;
+	background: url(../img/mfw-footer-sprite7.png);
+}
+.foot .weibo i:nth-child(2){
+	background-position: -30px 0;
+}
+.foot .weibo i:nth-child(3){
+	background-position: -60px 0;
+}
+.foot .copyright a,
+.foot .link a{
+	font-size: 12px;
+	color: #ccc;
+	
+}
+.foot .link{
+	border-top: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	line-height: 26px;
+	padding: 20px 0;
+	margin-top: 40px;
+}
+.foot .copyright a:hover,
+.foot .link a:hover{
+	color: white;
+}
+.copyright{
+	margin-top: 20px;
+	font-size: 12px;
+}
+.copyright div{
+	float: left;
+	margin-left: 20px;
+}
+.copyright div img{
+	width: 15px;
+	height: 15px;
+}
+.copyright .head-logo{
+	width: 140px;
+	height: 35px;
+	display: inline-block;
+	background: url(../img/mfw-footer-sprite7.png);
+	background-position:0 -30px ;
+	float: left;
+}
+.head-img {
+	text-align: center;
+}
+.head-img i{
+	width: 90px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img/mfw-footer-sprite7.png);
+	margin: 5px;
+}
+.head-img i:first-child{
+	background-position: 0 -70px;
+}
+.head-img i:nth-child(2){
+	background-position: 0 -110px;
+}
+.head-img i:nth-child(3){
+	background-position: 0 -150px;
+}
+.fix1{
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	bottom: 0px;
+	
+}
+.fix2{
+	width: 45px;
+	height: 135px;
+	position: fixed;
+	right: 10%;
+	bottom: 0;
+}
+.fix2 li{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+.fix2 li:hover a{
+	display: block;
+	background: #ccc;
+	z-index: 2;
+	color: white;
+	
+}
+.fix2 i{
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/header-sprites13.png);
+	background-position:-60px -160px ;
+	margin: 10px 12px;
+	z-index: 1;
+	
+}
+.fix2 li:last-child i{
+	background-position:-90px -162px ;
+}
+.fix2 a{
+	width: 45px;
+	height: 45px;
+	background: #aaa;
+	display: none;
+	position: absolute;
+	text-align: center;
+}
+
+#add{
+	color: #ff9d00;
+	font-size: 14px;
+	cursor: pointer;
+
+}

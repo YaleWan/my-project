@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>支付</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+		
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header>
+			<div class="nav" id="top">
+				<div class="logo"></div>			
+				<div class="navbar">
+					<ul class="navbar-i">
+						<li><a href="index.html" target="_blank">首页</a></li>
+						<li><a href="destination.html" target="_blank">目的地</a></li>
+						<li><a href="#">旅游攻略</a></li>
+						<li class="active">
+							旅行商城
+						</li>
+						<li><a href="#">酒店</a></li>
+						<li>
+							<a href="store.html" target="_blank">社区</a>
+							<div class="community"></div>
+						</li>
+						<li class="input">
+							<input type="text" />
+							<i class="fa fa-search"></i>
+						</li>
+					</ul>
+				</div>
+				<div class="login">
+					<i class="weibo"></i>
+					<i class="qq"></i>
+					<i class="weixin"></i>
+					<a href="login.html" target="_blank">登录</a>
+					<span>|</span>
+					<a>注册</a>					
+				</div>
+			</div>
+		</header>
+		<!-- 导航条 -->
+		<nav class="clearfix">
+			<ul>
+				<li class="active"><a href="#">自由行</a></li>
+				<li><a href="#">跟团游</a></li>
+				<li><a href="#">当地游</a></li>
+				<li><a href="#">国内机票</a></li>
+				<li><a href="#">签证</a></li>
+				<li><a href="#">全球wifi</a></li>
+				<li><a href="#">游轮</a></li>
+				<li><a href="#">旅游保险</a></li>
+			</ul>
+		</nav>
+		<!-- 内容主体部分 -->
+		<div class="content clearfix">
+			<form action="#">
+				<div class="form-field clearfix">
+					<div class="buy-step clearfix">
+						<li class="step1 active"><p><i></i></p><span>提交订单</span></li>
+	                  	<li class="step2"><p><i></i></p><span>确认支付</span></li>
+	                  	<li class="step3"><p><i></i></p><span>完成购买</span></li>
+					</div>
+                    <div class="traveller-inf">
+                    	<div class="tra-h">
+                    		<h2><span>1</span>出行人信息<span>（用于安排出行人行程）</span><span id="add" class="fa fa-plus">添加出行人</span></h2>
+                    	</div>
+                    	<div class="traveller-one" >
+							<p>出行人1
+								<span class="fa fa-angle-down down" >收起</span>
+								<span class="fa fa-angle-up up">展开</span>							
+							</p>
+                    		<p>
+								<input type="text"placeholder="请输入你的中文姓名" />
+								<i>中文姓名</i>
+							</p>
+                    		<p>
+								<input type="text" value="护照" />
+								<i>证件类型</i>
+								<input type="text" />
+							</p>
+                    		<p>
+								<input type="text" placeholder="请输入你的联系电话" />
+								<i>联系电话</i>
+								<input type="text" placeholder="请输入你真确的身份证"/>
+								<i class="second">身份证</i>
+							</p>
+						</div>      
+						             	
+           
+					</div>
+					<!-- 保险 -->
+                    <div class="traveller-insure">
+                    	<div class="tra-h">
+                    		<h2><span>2</span>保险<span>（放心出游有保障）</span></h2>
+                    	</div>
+                    	<div class="guarantee">
+                    		<input type="checkbox"/>
+                    		<div>
+                    			<p>马蜂窝亚洲游境外保险<span>￥107</span><b>/份</b></p>
+                    			<p>注：保险由马蜂窝官方优选保险公司[阳光财险]提供</p>
+                    			<p>查看条框</p>
+                    		</div>
+                    	</div>
+                    	
+                    </div>
+                    <div class="reserve-inf">
+                    	<div class="tra-h">
+                    		<h2><span>3</span>预订人信息<span>（用于接收订单反馈）</span></h2>
+                    	</div>
+                    	<div class="traveller-two">
+                    		
+                    		<p><input type="text"placeholder="请输入你的中文姓名" /><i>姓名</i></p>
+                    		<p><input type="text" placeholder="请输入你的手机"/><i>手机</i></p>
+                    		<p><input type="text" placeholder="请输入你的邮箱地址" /><i>邮箱</i></p>
+                    		<p><input type="text" placeholder="仅作为备用联系方式"/><i>微信</i></p>
+                    		<p><input type="text" placeholder="备注信息" /><i>备注信息</i></p>
+                    		
+                    		
+                    	</div>
+                    	
+                    </div>
+                </div>
+			
+				<div class="cont-right">
+					<img src="img/pay.jpeg"/>
+					<p>成都往返苏梅6天自由行机票（特别赠送接送机+可代定豪华海边酒店/也可代订交通方便的查汶市区酒店+当地吃喝玩乐推荐+全程微管家服务）</p>
+					<div>
+						<p>6天往返(周三、五、七)春秋航班</p>
+						<p>出行日期<time>2018-08-31</time></p>
+						<p>数量<span>成人x2</span></p>
+					</div>
+							
+				</div>
+
+				<!-- 购买优惠券 -->
+				<div class="buy">
+					<div class="left">
+						<p><i></i>使用商家优惠券</p>
+						<p><i></i>使用马蜂窝优惠券</p>
+						<p><i></i>使用蜂蜜抵现</p>
+					</div>
+					<div class="cost">
+						<p><span>产品金额：</span><span>￥13198.00</span></p>
+						<p><span>支付总金额：</span><span>￥13198.00</span></p>
+					</div>
+				</div>
+				<div class="submit">
+					<i></i>
+					<p>我已阅读并同意<span>《马蜂窝商城服务使用协议》</span>、<span>《旅游安全须知》</span></p>
+					<button>提交订单</button>
+				</div>
+			</form>	
+		</div>	
+
+		<!-- 页脚 -->
+		<footer>
+			<div class="foot">
+				<div class="guild">
+					<h4>全球旅游消费指南</h4>
+					<p>覆盖全球200多个国家和地区</p>
+					<p>100,000,000位旅行者</p>
+					<p>920,000家国际酒店</p>
+					<p>21,000,000条真实点评</p>
+					<p>382,000,000次攻略下载</p>
+					<p>中国旅游行业第一部“玩法”</p>
+				</div>
+				<div class="about">
+					<h4>关于我们</h4>
+					<p><span>关于马蜂窝</span><span>联系我们</span></p>
+					<p><span>隐私政策</span><span>商标声明</span></p>
+					<p><span>服务协议</span><span>游记协议</span></p>
+					<p>商城平台服务协议</p>
+					<p>网络信息侵权通知指引</p>
+					<p><span>网站地图</span><span>加入马蜂窝</span></p>
+				</div>
+				<div class="service">
+					<h4>旅行服务</h4>
+					<p><span>旅游攻略</span><span>酒店预订</span></p>
+					<p><span>旅游特价</span><span>国际租车</span></p>
+					<p><span>旅游问答</span><span>旅游保险</span></p>
+					<p><span>旅游指南</span><span>订火车票</span></p>
+					<p><span>旅游资讯</span><span>APP下载</span></p>
+					<p>旅行商城全球商家入驻</p>
+				</div>
+				<div class="code">
+					<span>
+						<img src="img/code.png"/>
+						<p>马蜂窝APP</p>
+						<p>扫描立即下载</p>
+					</span>
+					<span>
+						<img src="img/qr_mfw4.gif"/>
+						<p>马蜂窝旅游</p>
+						<p>订阅号</p>
+					</span>
+
+					<span>
+						<img src="img/qr_tejia4.png"/>
+						<p>马蜂窝良品</p>
+						<p>官网服务号</p>
+					</span>
+
+				</div>
+				<p>向崇尚自由的加勒比海盗致敬！</p>
+				<p class="weibo"><i></i><i></i><i></i></p>
+				<div class="link">
+					<a href="#">马可波罗</a>
+					<a href="#">Onlylady女人志</a>
+					<a href="#">艺龙旅游指南</a>
+					<a href="#">欣欣旅游指南</a>
+					<a href="#">户外运动</a>
+					<a href="#">365音乐网</a>
+					<a href="#">爱共享资料</a>
+					<a href="#">旅游网</a>
+					<a href="#">小说网</a>
+					<a href="#">学习啦</a>
+					<a href="#">游多多自助游</a>
+					<a href="#">问答</a>
+					<a href="#">火车时刻表</a>
+					<a href="#">驴妈妈旅游网</a>
+					<a href="#">好豆美食网</a>
+					<a href="#">二手车</a>
+					<a href="#">绿野户外</a>
+					<a href="#">途牛旅游网</a>
+					<a href="#">SUV联合越野</a>
+					<a href="#">手机浏览器</a>
+					<a href="#">上海地图</a>
+					<a href="#">天气预报查询</a>
+					<a href="#">同城旅游</a>
+					<a href="#">火车票</a>
+					<a href="#">YunOS</a>
+					<a href="#">携程旅游</a>
+					<a href="#">景江旅游</a>
+					<a href="#">火车时刻表</a>
+					<a href="#">TripAdvisor</a>
+					<a href="#">天巡网</a>
+					<a href="#">短租房</a>
+					<a href="#">租租车</a>
+					<a href="#">五分旅游网</a>
+					<a href="#">酒店预订</a>
+					<a href="#">爱旅行网</a>
+					<a href="#">旅游</a>
+					<a href="#">旅游网</a>
+					<a href="#">wed114结婚网</a>
+					<a href="#">车讯网</a>
+					<a href="#">遨游旅行网</a>
+					<a href="#">手机</a>
+					<a href="#">更多友情链接>></a>
+				</div>
+				<div class="copyright">
+					<i class="head-logo"></i>
+					<div>
+						<p>&copy;2018Mafengwo.cn<a href="#">京ICP备11015476号</a><img src="img/police_record.png" /><a href="#">京公网备11010502013401号</a><a href="#">京ICP证110318号</a>&nbsp;网络出版服务许可证：（总）网出证（京）字第161号</p>
+						<p>增值电信业务经营许可证：京B2-20180228:&nbsp;&nbsp;<a href="#">营业执照</a>&nbsp;&nbsp;<a href="#">帮助中心</a>&nbsp;&nbsp;<a href="#">马蜂窝客服</a>:国内<span>4006-345-678</span>海外<span>+86-10-5922-2799</span></p>
+					</div>
+				</div>
+				<div class="head-img">
+					<i></i><i></i><i></i>
+				</div>
+			
+			</div>
+			
+		</footer>
+		<div class="fix1">
+			<img src="img/coupon-hx-v2.png"/>
+		</div>
+		<ul class="fix2">
+			<li>
+				<i></i>
+				<a href="#top">返回顶部</a>
+			</li>
+			<li>
+				<i></i>
+				<a>意见反馈</a>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			
+
+
+
+			var odown=document.getElementsByClassName('down');
+		
+			var oup=document.getElementsByClassName('up');
+			var downLength=odown.length; 
+			// console.log("length:"+odown.length);
+			// for(var i=0;i<odown.length;i++){
+			// 	odown[i].idx = i;
+			// 	odown[i].addEventListener("click",function(){
+			// 		alert(this.idx);
+			// 	})
+				// odown[i].onclick=function(){
+				// 	alert(this.idx);
+				// }
+			// }
+			add.onclick=function(){
+				var travellerNode=document.getElementsByClassName('traveller-one')[0];
+				var clonedNode=travellerNode.cloneNode(true);
+				travellerNode.parentNode.appendChild(clonedNode);		// travellerNode.addEventListener("click");
+
+			
+			
+
+			}
+
+
+
+
+
+
+			function upOrDown(idx) {
+				// alert("abc");
+				odown[idx].onclick=function() {
+				odown[idx].parentNode.parentNode.style.height='40px';
+				odown[idx].style.display='none';
+				oup[idx].style.display="block";
+			}
+				
+				oup[idx].onclick=function  () {
+				odown[idx].parentNode.parentNode.style.height='240px';
+				odown[idx].style.display='block';
+				oup[idx].style.display="none";
+			}
+		}
+
+
+			for(var i=0;i<downLength;i++){
+				upOrDown(i);
+			}
+			
+	
+
+		</script>
+	
+	</body>
+</html>
